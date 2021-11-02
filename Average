@@ -1,0 +1,40 @@
+package myScanner;
+import java.util.Scanner;
+public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner avg=new Scanner(System.in);
+		
+		System.out.println("Input the first number: ");
+		int n1=avg.nextInt();
+		
+		System.out.println("Input the second number: ");
+		int n2=avg.nextInt();
+		
+		System.out.println("Input the third number: ");
+		int n3=avg.nextInt();
+		
+		System.out.println("Input the fourth number: ");
+		int n4=avg.nextInt();
+		
+		System.out.println("Input the fifth number: ");
+		int n5=avg.nextInt();
+		
+		System.out.println("The average of 5 number is "+(n1+n2+n3+n4+n5)/5);
+	}
+
+}
+
+Output
+Input the first number: 
+10
+Input the second number: 
+20
+Input the third number: 
+30
+Input the fourth number: 
+40
+Input the fifth number: 
+50
+The average of 5 number is 30
