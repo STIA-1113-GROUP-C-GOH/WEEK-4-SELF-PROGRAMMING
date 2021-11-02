@@ -1,0 +1,38 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Myname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner (System.in);
+		
+		System.out.println("Enter your name: ");
+		String name=scan.nextLine();
+		
+		System.out.println("Enter your surname: ");
+		String surname=scan.nextLine();
+		
+		System.out.println("Enter your brother's name: ");
+		String bname=scan.nextLine();
+		
+		System.out.println("\nMy name is " + name);
+		System.out.println("My surname is " +surname);
+		System.out.println("My brother's name is " + bname);
+		
+		}
+
+}
+
+Output
+Enter your name: 
+Goh Koon Loong
+Enter your surname: 
+Goh
+Enter your brother's name: 
+Goh Pin Rui
+
+My name is Goh Koon Loong
+My surname is Goh
+My brother's name is Goh Pin Rui
