@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class AssignmentConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dollars = 20;
+		float money = dollars;
+		
+		System.out.println("The money that I have now is " +money+ " dollars");
+		
+
+	}
+
+}
+
+Output
+The money that I have now is 20.0 dollars
